@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 80rem;
+  overflow: hidden;
+  margin-inline: auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+#navbar {
+  width: 100%;
+  height: 9.99rem;
+  background-color: #ffffff;
+  justify-content: space-between;
+  font-weight: 900;
+  font-size: 2rem;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  left: 0;
+  right: 0;
+  border-bottom: 0.1rem green solid;
+}
+.images {
+  height: 10rem;
+  width: 10rem;
+}
+#img1 {
+  height: 6rem;
+  width: 6rem;
+}
+a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+#regBtn {
+  margin-top: 1rem;
+  border: 0.2rem solid #000000;
+  background-color: #f5f5dc;
+  margin-bottom: 0rem;
+}
+
+#info {
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  color: #00274d;
+}
+#info2 {
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  color: #00274d;
+}
+#info3{
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  color: #00274d;
+}
+.flex2 {
+  display: flex;
+  justify-content: center;
+}
+#footer {
+  height: 21rem;
+  width: 100%;
+  font-size: 1.3rem;
+  background-color: #000000;
+  color: #ffffff;
+}
+ul {
+  padding:2rem;
+  margin: 2rem;
+  padding:1rem;
+  color: #fffff0;
+  font-size: 2rem;
+}
+li {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: 1.5rem;
+}
+#name1 {
+  font-size: 3rem;
+  padding: 1rem;
+  color: #000080;
+}
+#name2 {
+  font-size: 3rem;
+  padding: 1rem;
+  color: #fffff0;
+}
+.space {
+  height: 0.1rem;
+  margin-bottom: 2.9rem;
+}
+h1 {
+  color: #000080;
+  font-size: 2rem;
+  font-weight: 900;
+}
+p {
+  color: #00274d;
+  font-size: 1.5rem;
+}
+.mainHead {
+  color: #ff0000;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.space {
+  width: 100%;
+  height: 0.1rem;
+  background-color: green;
+}
+.spaces {
+  width: 100%;
+  height: 3rem;
+}
+.person{
+  height:25rem;
+  width:25rem;
+  border-radius: 50%;
+  border:solid black 0.1rem;
+  display:flex;
+}
+.eventPic{
+  height:25rem;
+  width:25rem;
+  margin:0.6rem;
+}
+#grievances{
+  height:15rem;
+}
+#form{
+  width:12rem;
+  margin-top: 1rem;
+  border: 0.2rem solid #000000;
+  background-color: #f5f5dc;
+  text-transform: uppercase;
+  color:#000000;
+}
